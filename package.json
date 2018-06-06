@@ -2,32 +2,23 @@
   "author": {
     "name": "Robert Arnesson"
   },
+  "private": true,
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/arnesson/cordova-plugin-firebase"
+    "url": "https://github.com/coyt0001/cordova-plugin-firebase"
   },
-  "name": "cordova-plugin-firebase",
+  "name": "recalls-alerts-rappels-avis-plugin-firebase",
   "version": "1.0.5",
   "description": "Cordova plugin for Google Firebase",
   "cordova": {
-    "id": "cordova-plugin-firebase",
+    "id": "recalls-alerts-rappels-avis-plugin-firebase",
     "platforms": [
       "android",
       "ios",
       "browser"
     ]
   },
-  "keywords": [
-    "ecosystem:cordova",
-    "cordova-android",
-    "cordova-ios",
-    "cordova-browser",
-    "firebase",
-    "push",
-    "notifications",
-    "phone auth"
-  ],
   "scripts": {
     "version": "node ./bump-version.js && git add -A plugin.xml",
     "postversion": "git push && git push --tags && npm publish",
